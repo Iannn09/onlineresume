@@ -1,91 +1,43 @@
+
 *
-{
-	margin: 0;
-	padding: 0;
-
+{ 
+   margin: 0;
 }
 
-header
-{
-	
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic1.jpg);
-	height: 100vh;
-	background-size:cover;
-	background-position: center;
-	
-}
-
-
-.main-nav
-{
-	float: right;
-	list-style: none;
-	margin-top:30px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #202020;
+	border: 1px solid;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 	
 }
 
-.main-nav li
-{
-	display: inline-block;
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+	
 	
 }
 
-.main-nav li a
-{
-	color: white;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Roboto", sans serif;
-	font-size: 10px;
+li a.active {
+    background-color: 	#181818;
+    color: white;
+	border: 1px solid;
+	
+}
+
+li a:hover:not(.active) {
+    border: 1px solid;
+    color: white;
 	transition: 0.6s ease;
 }
-
-
-ul li.active a{
-	border: 1px solid;
-	color#000;
-	
-}
-
-
-.main-nav li a:hover
-{
-	border: 1px solid;
-
-	
-}
-
-.title{
-	
-	position: absolute;
-	top: 50%;
-	left: 12%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	
-	color: #fff;
-	font-size: 20px;
-	font-family: roboto;
-
-	
-}
-
-img {
-
-    border-radius: 800px;
-    padding: 5px;
-    width: 100px;
-	
-}
-
-
-
-
-
-
-
-
 
 
